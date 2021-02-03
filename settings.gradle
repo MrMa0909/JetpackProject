@@ -1,0 +1,3 @@
+include ':navigationdemo'
+include ':JetNavigation'
+rootProject.name = "JetpackProject"

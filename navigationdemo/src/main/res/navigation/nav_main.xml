@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragment_main"
+    android:id="@+id/nav_main">
+
+    <fragment
+        android:id="@+id/fragment_main"
+        android:name="com.cfox.navigationdemo.MainFragment"
+        tools:layout="@layout/fragment_main"
+        >
+
+        <action
+            android:id="@+id/action_fragment_main_to_loginFragment"
+            app:destination="@id/login_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/login_fragment"
+        android:name="com.cfox.navigationdemo.main.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_login_fragment_to_forget_pwd_fragment"
+            app:destination="@id/forget_pwd_fragment" />
+        <action
+            android:id="@+id/action_login_fragment_to_register_fragment"
+            app:destination="@id/register_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/forget_pwd_fragment"
+        android:name="com.cfox.navigationdemo.main.ForgetPwdFragment"
+        android:label="ForgetPwdFragment" />
+
+    <fragment
+        android:id="@+id/register_fragment"
+        android:name="com.cfox.navigationdemo.main.RegisterFragment"
+        android:label="RegisterFragment" />
+
+
+</navigation>
