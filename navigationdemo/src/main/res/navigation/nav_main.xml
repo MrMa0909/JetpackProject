@@ -19,7 +19,8 @@
     <fragment
         android:id="@+id/login_fragment"
         android:name="com.cfox.navigationdemo.main.LoginFragment"
-        android:label="LoginFragment" >
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_login_fragment_to_forget_pwd_fragment"
             app:destination="@id/forget_pwd_fragment" />
@@ -31,12 +32,14 @@
     <fragment
         android:id="@+id/forget_pwd_fragment"
         android:name="com.cfox.navigationdemo.main.ForgetPwdFragment"
-        android:label="ForgetPwdFragment" />
+        android:label="ForgetPwdFragment"
+        tools:layout="@layout/fragment_forget_pwd"/>
 
     <fragment
         android:id="@+id/register_fragment"
         android:name="com.cfox.navigationdemo.main.RegisterFragment"
-        android:label="RegisterFragment" />
+        android:label="RegisterFragment"
+        tools:layout="@layout/fragment_register"/>
 
 
 </navigation>
