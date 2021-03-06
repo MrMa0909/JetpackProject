@@ -6,6 +6,14 @@
     app:startDestination="@id/fragment_main"
     android:id="@+id/nav_main">
 
+
+    <!--
+    全局操作： 在最外层创建一个指向特定fragment 的action
+    注意：如果有页面 A, B , C， D , 在D 页面使用全局操作跳 A , 在 A 页面使用 navigateUp 返回将返回 D 页面
+    -->
+    <action android:id="@+id/action_global_fragment_main"
+        app:destination="@id/fragment_main"/>
+
     <fragment
         android:id="@+id/fragment_main"
         android:name="com.cfox.navigationdemo.MainFragment"
@@ -39,7 +47,28 @@
         android:id="@+id/register_fragment"
         android:name="com.cfox.navigationdemo.main.RegisterFragment"
         android:label="RegisterFragment"
-        tools:layout="@layout/fragment_register"/>
+        tools:layout="@layout/fragment_register">
+
+        <action
+            android:id="@+id/action_register_fragment_to_registerSuccessFragment"
+            app:destination="@id/registerSuccessFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerSuccessFragment"
+        android:name="com.cfox.navigationdemo.main.RegisterSuccessFragment"
+        android:label="RegisterSuccessFragment"
+        tools:layout="@layout/fragment_register_success">
+        <!--
+           如果使用navigate + action 跳转是个环， A -> B -> C -> A,
+           再次返回 A 页面时，不会清空A 上面的 B ， C
+       -->
+        <action
+            android:id="@+id/action_register_fragment_to_login_fragment"
+            app:destination="@id/login_fragment" />
+        <action
+            android:id="@+id/action_registerSuccessFragment_to_login_fragment"
+            app:destination="@id/login_fragment" />
+    </fragment>
 
 
 </navigation>

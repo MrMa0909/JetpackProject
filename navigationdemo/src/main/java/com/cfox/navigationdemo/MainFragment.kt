@@ -14,6 +14,10 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         view.findViewById<Button>(R.id.btn_open_login).setOnClickListener {
             findNavController().navigate(R.id.action_fragment_main_to_loginFragment)
         }
+
+        view.findViewById<Button>(R.id.btn_back).setOnClickListener {
+            findNavController().navigateUp()
+        }
     }
 
 }
