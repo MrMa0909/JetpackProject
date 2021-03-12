@@ -19,9 +19,10 @@ class RegisterFragment : Fragment(R.layout.fragment_register) {
         super.onViewCreated(view, savedInstanceState)
 
         view.findViewById<Button>(R.id.btn_back).setOnClickListener {
-//            val navResult = findNavController().navigateUp() // 返回 ，true 成分 ， false 失败
+            // navigateUp 和 popBackStack 在正常使用时作用一样，fragment stack 中都会将将本身 pop stack
+            val navResult = findNavController().navigateUp() // 返回 ，true 成功 ， false 失败
 
-            val navResult = findNavController().popBackStack()
+//            val navResult = findNavController().popBackStack()
 
             Log.d(TAG, "onViewCreated: back result:$navResult")
         }
@@ -29,14 +30,11 @@ class RegisterFragment : Fragment(R.layout.fragment_register) {
         view.findViewById<Button>(R.id.btn_back_home).setOnClickListener {
             findNavController().navigate(R.id.action_global_fragment_main)
         }
-        // 点击事件另一种写法
-//        view.findViewById<Button>(R.id.btn_back_home)
-//                .setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_global_fragment_main))
 
-        view.findViewById<Button>(R.id.btn_back_nav).setOnClickListener {
-            // 使用的action 必须是该页面可达的
-//            findNavController().navigate(R.id.action_fragment_main_to_loginFragment)
-            findNavController().navigate(R.id.action_register_fragment_to_login_fragment)
+        view.findViewById<Button>(R.id.btn_next).setOnClickListener {
+            findNavController().navigate(R.id.action_register_fragment_to_registerSuccessFragment)
         }
+
+
     }
 }

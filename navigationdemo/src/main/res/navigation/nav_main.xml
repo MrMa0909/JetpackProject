@@ -63,11 +63,22 @@
            再次返回 A 页面时，不会清空A 上面的 B ， C
        -->
         <action
-            android:id="@+id/action_register_fragment_to_login_fragment"
-            app:destination="@id/login_fragment" />
-        <action
             android:id="@+id/action_registerSuccessFragment_to_login_fragment"
             app:destination="@id/login_fragment" />
+        <!--
+        app:popUpTo 会告知 Navigation 库在调用 navigate() 的过程中从返回堆栈上弹出一些目的地。
+        属性值是应保留在堆栈中的最新目的地的 ID
+        popUpTo 是指定当前action 执行后，fragment stack 指向到那个位置，在指向位置之前的fragment 都要出站
+
+        app:popUpToInclusive="true"，以表明在 app:popUpTo 中指定的目的地也应从返回堆栈中移除
+        popUpToInclusive 为true ，popUpTo 指定的位置的fragment 是否保留在fragment stack 中
+        true  不保留， false 保留
+        -->
+        <action
+            android:id="@+id/action_registerSuccessFragment_back_to_login_fragment"
+            app:destination="@id/login_fragment"
+            app:popUpTo="@+id/login_fragment"
+            app:popUpToInclusive="true"/>
     </fragment>
 
 
