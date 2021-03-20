@@ -8,7 +8,12 @@
     <fragment
         android:id="@+id/fragment_main_pic"
         android:name="com.cfox.navigationdemo.MainPicFragment"
-        tools:layout="@layout/fragment_main_pic"/>
+        tools:layout="@layout/fragment_main_pic">
+        <argument
+            android:name="msg"
+            app:argType="string"
+            android:defaultValue="empty"/>
+    </fragment>
 
 
 </navigation>
