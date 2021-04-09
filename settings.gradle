@@ -1,3 +1,4 @@
+include ':workmanagerdemo'
 include ':navigationdemo'
 include ':JetNavigation'
 rootProject.name = "JetpackProject"
