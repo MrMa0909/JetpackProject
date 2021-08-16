@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/JetpackProject.iml" filepath="$PROJECT_DIR$/.idea/JetpackProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JetNavigation/JetpackProject.JetNavigation.iml" filepath="$PROJECT_DIR$/.idea/modules/JetNavigation/JetpackProject.JetNavigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigationdemo/JetpackProject.navigationdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/navigationdemo/JetpackProject.navigationdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewmodedemo/JetpackProject.viewmodedemo.iml" filepath="$PROJECT_DIR$/.idea/modules/viewmodedemo/JetpackProject.viewmodedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/workmanagerdemo/JetpackProject.workmanagerdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/workmanagerdemo/JetpackProject.workmanagerdemo.iml" />
     </modules>
   </component>

@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe3595bd28a4d916257be40f9be5f49e/jetified-ui-unit-1.0.0-alpha10/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d292fd740bd4e52572cf0f0e6ac4f02b/jetified-ui-unit-1.0.0-alpha10/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d292fd740bd4e52572cf0f0e6ac4f02b/jetified-ui-unit-1.0.0-alpha10/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d292fd740bd4e52572cf0f0e6ac4f02b/jetified-ui-unit-1.0.0-alpha10/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b5a6a29a3359ed3bce4c7d33afb2226/jetified-ui-unit-1.0.0-alpha10/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b5a6a29a3359ed3bce4c7d33afb2226/jetified-ui-unit-1.0.0-alpha10/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b5a6a29a3359ed3bce4c7d33afb2226/jetified-ui-unit-1.0.0-alpha10/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

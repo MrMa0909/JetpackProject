@@ -25,7 +25,7 @@ public class SimpleWorker extends Worker {
 
         EsLog.d("doWork: run work method start ===>" + Log.getStackTraceString(new Throwable()));
 
-        for (int i = 0; i < 50; i ++) {
+        for (int i = 0; i < 10000; i ++) {
             EsLog.d("doWork: running index : " + i);
             try {
                 Thread.sleep(1000);

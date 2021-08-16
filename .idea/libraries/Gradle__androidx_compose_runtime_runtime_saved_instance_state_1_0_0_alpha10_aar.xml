@@ -2,9 +2,10 @@
   <library name="Gradle: androidx.compose.runtime:runtime-saved-instance-state:1.0.0-alpha10@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e19c36ece3173683215411f522efaaa/jetified-runtime-saved-instance-state-1.0.0-alpha10/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/23bdf7bd93ff418e71486cec53162390/jetified-runtime-saved-instance-state-1.0.0-alpha10/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/23bdf7bd93ff418e71486cec53162390/jetified-runtime-saved-instance-state-1.0.0-alpha10/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/23bdf7bd93ff418e71486cec53162390/jetified-runtime-saved-instance-state-1.0.0-alpha10/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/397cada0eea4cb6796fce8043d2b5903/jetified-runtime-saved-instance-state-1.0.0-alpha10/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/397cada0eea4cb6796fce8043d2b5903/jetified-runtime-saved-instance-state-1.0.0-alpha10/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/397cada0eea4cb6796fce8043d2b5903/jetified-runtime-saved-instance-state-1.0.0-alpha10/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

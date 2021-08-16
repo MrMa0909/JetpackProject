@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0f1fdd02cb70a33c1735c46fa8044c3/jetified-runtime-dispatch-1.0.0-alpha10/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/75b2cc29665488adddeec1e644449ced/jetified-runtime-dispatch-1.0.0-alpha10/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/75b2cc29665488adddeec1e644449ced/jetified-runtime-dispatch-1.0.0-alpha10/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/75b2cc29665488adddeec1e644449ced/jetified-runtime-dispatch-1.0.0-alpha10/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3d30d6cf1d620b7b39ed8ba2d6444de2/jetified-runtime-dispatch-1.0.0-alpha10/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3d30d6cf1d620b7b39ed8ba2d6444de2/jetified-runtime-dispatch-1.0.0-alpha10/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3d30d6cf1d620b7b39ed8ba2d6444de2/jetified-runtime-dispatch-1.0.0-alpha10/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

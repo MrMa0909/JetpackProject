@@ -2,9 +2,10 @@
   <library name="Gradle: androidx.compose.runtime:runtime:1.0.0-alpha10@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/78aebcf7204a0115c5b1bda3b98d2f62/jetified-runtime-1.0.0-alpha10/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4139f3b735bfe7229bfa817587149b80/jetified-runtime-1.0.0-alpha10/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4139f3b735bfe7229bfa817587149b80/jetified-runtime-1.0.0-alpha10/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4139f3b735bfe7229bfa817587149b80/jetified-runtime-1.0.0-alpha10/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b04c8fd9437f49297c6dd6a45967dd5/jetified-runtime-1.0.0-alpha10/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b04c8fd9437f49297c6dd6a45967dd5/jetified-runtime-1.0.0-alpha10/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b04c8fd9437f49297c6dd6a45967dd5/jetified-runtime-1.0.0-alpha10/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

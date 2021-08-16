@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b96a12a738bdccb0c61ff57f37ce94e4/jetified-ui-geometry-1.0.0-alpha10/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2ecb654dea0f5f7aedb83b175f306ca/jetified-ui-geometry-1.0.0-alpha10/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2ecb654dea0f5f7aedb83b175f306ca/jetified-ui-geometry-1.0.0-alpha10/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2ecb654dea0f5f7aedb83b175f306ca/jetified-ui-geometry-1.0.0-alpha10/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/66d0df03179d92111aff5bd172834ae6/jetified-ui-geometry-1.0.0-alpha10/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/66d0df03179d92111aff5bd172834ae6/jetified-ui-geometry-1.0.0-alpha10/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/66d0df03179d92111aff5bd172834ae6/jetified-ui-geometry-1.0.0-alpha10/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
