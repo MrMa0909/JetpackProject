@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
 
+        <!-- 通过移除node 方式，关闭work manager 初始化 -->
         <provider
             android:name="androidx.work.impl.WorkManagerInitializer"
             android:authorities="${applicationId}.workmanager-init"

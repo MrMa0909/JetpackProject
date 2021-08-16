@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
@@ -13,4 +14,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <Button
+        android:onClick="runPeriodicWorker1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Periodic"
+        />
+
+
+    <Button
+        android:onClick="runRetryWorker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retry"
+        />
+
+    <Button
+        android:onClick="runTagWorker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tag"
+        />
+
+
+    <Button
+        android:onClick="runInputDataWorker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Data"
+        />
+
+    <Button
+        android:onClick="runMultiSameWorker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multi same worker"
+        />
 </LinearLayout>

@@ -10,6 +10,11 @@ import androidx.annotation.Nullable;
 import androidx.work.Configuration;
 import androidx.work.WorkManager;
 
+
+/**
+ * WorkManager 在源码中使用provider 方式进行初始化
+ *
+ */
 public class WorkManagerInitializer extends ContentProvider {
     @Override
     public boolean onCreate() {
