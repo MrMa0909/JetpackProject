@@ -38,30 +38,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d94d36-fac8-4d97-8c72-fde8cad3f3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/workmanagerdemo/src/main/java/com/cfox/workmanagerdemo/worker/InputDataWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workmanagerdemo/src/main/java/com/cfox/workmanagerdemo/worker/Periodic1Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workmanagerdemo/src/main/java/com/cfox/workmanagerdemo/worker/RetryWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workmanagerdemo/src/main/java/com/cfox/workmanagerdemo/worker/Tag2Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workmanagerdemo/src/main/java/com/cfox/workmanagerdemo/worker/TagWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workmanagerdemo/src/main/java/com/cfox/workmanagerdemo/worker/OutDataWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workmanagerdemo/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workmanagerdemo/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workmanagerdemo/src/main/java/com/cfox/workmanagerdemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/workmanagerdemo/src/main/java/com/cfox/workmanagerdemo/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workmanagerdemo/src/main/java/com/cfox/workmanagerdemo/WorkManagerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/workmanagerdemo/src/main/java/com/cfox/workmanagerdemo/WorkManagerInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workmanagerdemo/src/main/java/com/cfox/workmanagerdemo/worker/SimpleWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/workmanagerdemo/src/main/java/com/cfox/workmanagerdemo/worker/SimpleWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workmanagerdemo/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workmanagerdemo/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +55,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[28d980c]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/chao.ma/.android/avd/Pixel_5_API_25.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -449,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629100602537</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update worker code">
+      <created>1629118258205</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629118258206</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

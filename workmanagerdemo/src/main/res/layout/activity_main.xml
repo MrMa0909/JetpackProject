@@ -44,10 +44,21 @@
         android:text="Input Data"
         />
 
+
+    <Button
+        android:onClick="runOutDataWorker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Out Data"
+        />
+
     <Button
         android:onClick="runMultiSameWorker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Multi same worker"
         />
+
+
+
 </LinearLayout>
