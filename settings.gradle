@@ -3,3 +3,4 @@ include ':navigationdemo'
 include ':JetNavigation'
 rootProject.name = "JetpackProject"
 include ':viewmodedemo'
+include ':lifecyclektdemo'

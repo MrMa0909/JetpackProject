@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/JetNavigation" />
+            <option value="$PROJECT_DIR$/lifecyclektdemo" />
             <option value="$PROJECT_DIR$/navigationdemo" />
             <option value="$PROJECT_DIR$/viewmodedemo" />
             <option value="$PROJECT_DIR$/workmanagerdemo" />
